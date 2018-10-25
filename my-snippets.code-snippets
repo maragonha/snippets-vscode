@@ -28,5 +28,12 @@
 			"\t<small class=\"text-danger\">{{ $$errors->first('${1:checkbox_id}') }}</small>",
 			"</div>"
 		]
+	},
+	"ddblade": {
+		"scope": "blade",
+		"prefix": "dd",
+		"body": [
+			"{{ dd(${1}) }}"
+		]
 	}
 }
