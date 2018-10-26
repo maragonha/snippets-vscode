@@ -72,5 +72,13 @@
 			"\t${10:# code...}",
 			"}"
 		]
-	}
+	},
+	"boothidden": {
+		"scope": "blade",
+		"prefix": "boothidden",
+		"body": [
+			"{!! Form::hidden('${1:inputname}', ${2:'value'}) !!}"
+		]
+	},
+
 }
