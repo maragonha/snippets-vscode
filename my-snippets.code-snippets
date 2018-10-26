@@ -42,5 +42,35 @@
 		"body": [
 			"dd(${1});"
 		]
+	},
+	"comm": {
+		"scope": "php",
+		"prefix": "comm",
+		"body": [
+			"/**",
+			" * ${1:Comment}",
+			" *${2:\r * @param\t${3:Param }${4:$$id}}",
+			" * @return\t${5:view}",
+			" * @version\t2018-10-${6:01}",
+			" * @author\tDiego Antonio Magnaguagno (https://github.com/maragonha)",
+			" */",
+			"${7}"
+		]
+	},
+	"cfun": {
+		"scope": "php",
+		"prefix": "cfun",
+		"body": [
+			"/**",
+			" * ${1:Comment}",
+			" *${2:\r * @param\t${3:Param }${4:$$id}}",
+			" * @return\t${5:view}",
+			" * @version\t2018-10-${6:01}",
+			" * @author\tDiego Antonio Magnaguagno (https://github.com/maragonha)",
+			" */",
+			"${7:public }function ${8:functionName}(${9:$$id}) {",
+			"\t${10:# code...}",
+			"}"
+		]
 	}
 }
